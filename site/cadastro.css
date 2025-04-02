@@ -1,0 +1,178 @@
+    body {
+      background-color: #f9f9f9;
+    }
+
+    .menuCadastro {
+      display: flex;
+      height: 650px;
+      width: 1324px;
+      background-color: #ffffff;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 45px;
+      box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
+
+    }
+
+    .menuCadastro button:active {
+      transform: translateY(2px);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+
+
+    /* Responsividade */
+    @media (max-width: 1324px) {
+      .menuCadastro {
+        width: 95vw;
+        /* Ocupa 95% da largura da tela */
+        height: auto;
+        /* Altura proporcional */
+        aspect-ratio: 1324/650;
+        /* Mantém a proporção original */
+        min-width: 300px;
+        /* Largura mínima */
+      }
+    }
+
+    .cadastroBranco {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      right: 0;
+      width: 55%;
+      height: 100%;
+      background-color: #ffffff;
+      position: absolute;
+      border-radius: 0 45px 45px 0;
+    }
+
+    .conteudoBranco {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .conteudoBranco h1 {
+      font-weight: bold;
+      font-family: 'Instrument Sans', sans-serif;
+      color: #19aaa7;
+    }
+
+    .conteudoBranco p {
+      font-family: 'Instrument Sans', sans-serif;
+      color: #828282;
+    }
+
+    .conteudoBranco input {
+      width: 270px;
+      height: 45px;
+      border: none;
+      border-radius: 15px;
+      box-sizing: border-box;
+
+      box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    .conteudoBranco button {
+      width: 220px;
+      height: 64px;
+      border: none;
+      background-color: #1dbcb8;
+      border-radius: 35px;
+      color: #ffffff;
+      font-weight: bold;
+      font-size: large;
+      font-family: 'Instrument Sans', sans-serif;
+      cursor: pointer;
+    }
+
+    .conteudoBranco button:hover {
+      background-color: #1daeac;
+    }
+
+    #nome {
+      background-image: url('svgNome.svg');
+      background-repeat: no-repeat;
+      background-position: 10px center;
+      background-size: 16px;
+      padding-left: 36px;
+    }
+
+    #email {
+      background-image: url('svgEmail.svg');
+      background-repeat: no-repeat;
+      background-position: 10px center;
+      background-size: 16px;
+      padding-left: 36px;
+    }
+
+    #senha {
+      background-image: url('svgSenha.svg');
+      background-repeat: no-repeat;
+      background-position: 10px center;
+      background-size: 16px;
+      padding-left: 36px;
+    }
+
+    .textoBranco {
+      text-align: center;
+    }
+
+    .cadastroAzul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      left: 0;
+      width: 45%;
+      height: 100%;
+      background-color: #27d6d2;
+      position: absolute;
+      border-radius: 45px 0 0 45px;
+    }
+
+    .conteudoAzul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .conteudoAzul h1 {
+      font-weight: bold;
+      font-family: 'Instrument Sans', sans-serif;
+      color: #ffffff;
+    }
+
+    .conteudoAzul p {
+      font-family: 'Instrument Sans', sans-serif;
+      color: #ffffff;
+    }
+
+    .conteudoAzul button {
+      width: 220px;
+      height: 64px;
+      border: 4px solid #ffffff;
+      background-color: #27d6d2;
+      border-radius: 35px;
+      color: #ffffff;
+      font-weight: bold;
+      font-size: large;
+      font-family: 'Instrument Sans', sans-serif;
+      cursor: pointer;
+    }
+
+    .conteudoAzul button:hover {
+      background-color: #24c8c5;
+    }
+
+    .textoAzul {
+      text-align: center;
+    }
