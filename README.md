@@ -1,7 +1,6 @@
 ⚙️ Requisitos para uso do sistema InteliSaúde
 
-Para que o sistema InteliSaúde funcione corretamente em sua máquina, é necessário que os seguintes componentes e configurações estejam presentes e corretamente
-instalados:
+O sistema InteliSaúde foi desenvolvido com o framework Laravel (PHP), e para que ele funcione corretamente em sua máquina, é necessário que os seguintes componentes e configurações estejam presentes e corretamente instalados:
 
 🧩 Dependências obrigatórias:
 
