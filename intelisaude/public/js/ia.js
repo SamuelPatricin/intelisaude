@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <div id="blocoRespostaIA" class="resultadoIA">
             <h1 id="tituloAutoConsulta">Autoconsulta inteligente com IA</h1>
             <h3>Com a ajuda da nossa inteligência artificial, você pode ter uma ideia do que pode estar <br>acontecendo com seu corpo. É rápido, fácil e gratuito.
-            <br>As respostas geradas pela inteligência artificial são processadas em tempo real e não são armazenadas pelo sistema, garantindo maior privacidade ao usuário.</h3>
+            <brAs informações inseridas neste sistema e as respostas geradas pela IA são processadas em tempo real e não são armazenadas pelo sistema. Nenhum dado pessoal é retido, garantindo sua privacidade.</h3>
           </div>
           <div class="inputSintomas">
             <input id="inputSintomas" placeholder="Digite seus sintomas aqui" type="text" value="${sessionStorage.getItem('sintomasUsuario') || ''}" />
