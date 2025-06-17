@@ -1,0 +1,159 @@
+.conta {
+  font-family: 'Instrument Sans', sans-serif;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background-color: #ffffff;
+    min-width: 290px;
+    min-height: 665px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    transform: translateX(100%);
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 0.4s ease-out, opacity 0.4s ease-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conta.visivel {
+    transform: translateX(0);
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.conta h1, .conta h3 {
+    display: flex;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  gap: 20px;
+}
+
+
+.conta input {
+    width: 190px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .conteudoAutoconsulta input {
+    width: 500px;
+    height: 45px;
+    border: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .inputNome {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 60px;
+  }
+  
+  .inputNome button {
+    position: absolute;
+    right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    color: #828282;
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+  
+    cursor: pointer;
+  }
+  
+  .inputNome button:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .inputNome button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .botoesConta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    gap: 10px;
+    margin-top: 80px;
+  }
+
+  #mudarEmail {
+    width: 220px;
+    height: 64px;
+    border: 4px solid #1dbcb8;
+    background-color: #ffffff;
+    border-radius: 35px;
+    color: #1dbcb8;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+  }
+
+  #mudarEmail:hover {
+    background-color: #f9f9f9;
+  }
+  
+  #mudarEmail:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  #mudarSenha {
+    width: 220px;
+    height: 64px;
+    border: 4px solid #1dbcb8;
+    background-color: #ffffff;
+    border-radius: 35px;
+    color: #1dbcb8;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+  }
+
+  #mudarSenha:hover {
+    background-color: #f9f9f9;
+  }
+  
+  #mudarSenha:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  #apagarConta {
+    width: 220px;
+    height: 64px;
+    border: 4px solid #1dbcb8;
+    background-color: #1dbcb8;
+    border-radius: 35px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+  }
+
+  #apagarConta:hover {
+    background-color: #1daeac;
+  }
+  
+  #apagarConta:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }

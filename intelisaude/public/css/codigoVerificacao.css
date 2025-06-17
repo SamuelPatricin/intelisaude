@@ -1,0 +1,111 @@
+body {
+    background-color: #f9f9f9;
+}
+
+.menuVerificacao {
+    display: flex;
+    height: 650px;
+    width: 1324px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 45px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#confirmar:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Responsividade */
+@media (max-width: 1324px) {
+    .menuVerificacao {
+        width: 95vw;
+        /* Ocupa 95% da largura da tela */
+        height: auto;
+        /* Altura proporcional */
+        aspect-ratio: 1324/650;
+        /* Mantém a proporção original */
+        min-width: 300px;
+        /* Largura mínima */
+    }
+}
+
+.conteudoVerificacao, .conteudoVerificacao form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.conteudoVerificacao img {
+    height: 150px;
+    width: 150px;
+}
+
+#textoVerificacao {
+    font-family: 'Instrument Sans', sans-serif;
+    color: #000000;
+}
+
+#textoReenvio {
+font-family: 'Instrument Sans', sans-serif;
+    color: #828282;
+}
+
+.conteudoVerificacao input {
+    width: 500px;
+    height: 45px;
+    border: none;
+    border-bottom: 3px solid #1daeac;
+    text-align: center;
+    padding: 5px;
+    font-size: large;
+    text-transform: uppercase;
+    letter-spacing: 40px;
+    outline: none;
+    color: #828282;
+}
+
+#confirmar {
+    width: 220px;
+    height: 64px;
+    border: none;
+    background-color: #1dbcb8;
+    border-radius: 35px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Instrument Sans', sans-serif;
+    cursor: pointer;
+}
+
+#reenviar {
+    width: 220px;
+    height: 64px;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 35px;
+    color: #000000;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Instrument Sans', sans-serif;
+    cursor: pointer;
+}
+
+#confirmar:hover {
+    background-color: #1daeac;
+}
+
+.textoVerificacao {
+    text-align: center;
+}
