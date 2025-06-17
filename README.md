@@ -11,6 +11,7 @@ O sistema InteliSaúde foi desenvolvido com o framework Laravel (PHP), e para qu
    Responsável por extrair texto das imagens dos exames.
 
    > É necessário utilizar a biblioteca PHP desenvolvida por Thiago Alessio, que permite a integração do Tesseract com o backend em PHP.
+   
    > Exemplo de instalação via Composer: composer require thiagoalessio/tesseract_ocr
 
 3. GhostScript
