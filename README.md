@@ -37,10 +37,15 @@ Além da instalação das dependências, é necessário configurar o arquivo `.e
 Exemplo de configuração:
 
 DB_HOST=localhost
+
 DB_PORT=3306
+
 DB_DATABASE=intelisaude
+
 DB_USERNAME=root
+
 DB_PASSWORD=sua_senha
+
 
 OPENAI_API_KEY=sua_chave_api
 
