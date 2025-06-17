@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
           <img src="img/logo.png" alt="Logo" />
           <div id="blocoRespostaIA" class="resultadoIA">
             <h1 id="tituloAutoConsulta">Autoconsulta inteligente com IA</h1>
-            <h3>Com a ajuda da nossa inteligência artificial, você pode ter uma ideia do que pode estar <br>acontecendo com seu corpo. É rápido, fácil e gratuito.
-            <brAs informações inseridas neste chatbot, e as respostas geradas pela IA neste chatbot, são processadas em tempo real e NÃO SÃO ARMAZENADAS pelo sistema. Nenhum dado pessoal é retido, garantindo sua privacidade.</h3>
+            <h3>Com a ajuda da nossa inteligência artificial, você pode ter uma ideia do que pode estar <br>acontecendo com seu corpo. É rápido, fácil e gratuito.</h3>
+             <h4 style="color: red; text-align: center; font-family: 'Instrument Sans', sans-serif;">As informações inseridas neste chatbot, e as respostas geradas pela IA neste chatbot, são processadas em tempo real e NÃO SÃO ARMAZENADAS pelo sistema. Nenhum dado pessoal é retido, garantindo sua privacidade.</h4>
           </div>
           <div class="inputSintomas">
             <input id="inputSintomas" placeholder="Digite seus sintomas aqui" type="text" value="${sessionStorage.getItem('sintomasUsuario') || ''}" />
